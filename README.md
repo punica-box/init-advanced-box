@@ -100,7 +100,7 @@ Function detailed configuration:
     ],
     "signature": {
         "m":1,
-        "signer":[
+        "signers":[
             "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ"
         ]
     },
@@ -113,4 +113,6 @@ Function detailed configuration:
   - `name`: parameter name.
   - `value`: parameter value. In this example, the first parameter value is array and it should be configurated like this example.Elements in the array support basic data types, if the data type of element is int or boolean, you don't need to declare the parameter type, if the data type of element is `String` or `byte[]`, you need to explicitly declare the data type and the declaration format is "data type: data value".
 - `signature` Used to set signer.
+   - `m` indicates the minimum number of signatures required in the multi-signature. `m=1` indicate Single sign, `m > 2` indicates multi-signature.
+   - `signers` indicates all the addresses of signers. 
 - `preExec` Used to set the execution mode of the function, `true` indicates this transaction will not update state of blockchain, `false` indicates this transaction will update state of blockchain and this operation need pay transaction fee.
