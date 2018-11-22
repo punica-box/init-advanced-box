@@ -18,6 +18,7 @@
     },
     "invokeConfig": {
         "abi": "hello_ontology_abi.json",
+        "sleepTime":0,
         "defaultPayer": "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ",
         "gasPrice": 0,
         "gasLimit": 20000,
@@ -36,7 +37,7 @@
                         ]
                     }
                 ],
-                "signers": {},
+                "signature": {},
                 "preExec": true
             },
             {
@@ -57,7 +58,7 @@
                         "value": "String:test"
                     }
                 ],
-                "signers": {},
+                "signature": {},
                 "preExec": true
             },
             {
@@ -75,7 +76,7 @@
                         "value": "String:test"
                     }
                 ],
-                "signers": {},
+                "signature": {},
                 "preExec": true
             },
             {
@@ -93,7 +94,12 @@
                         "value": "String:hello"
                     }
                 ],
-                "signers": {},
+                "signature": {
+                    "m":1,
+                    "signers":[
+                        "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ"
+                    ]
+                },
                 "preExec": true
             },
             {
@@ -113,7 +119,7 @@
                         ]
                     }
                 ],
-                "signers": {},
+                "signature": {},
                 "preExec": true
             },
             {
@@ -137,7 +143,7 @@
                         "value": "String:test"
                     }
                 ],
-                "signers": {},
+                "signature": {},
                 "preExec": true
             },
             {
@@ -152,9 +158,9 @@
                         "value": "String:value1"
                     }
                 ],
-                "signers": {
+                "signature": {
                   "m":1,
-                  "signer":[
+                  "signers":[
                     "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ"
                   ]
                 },
@@ -168,7 +174,7 @@
                         "value": "String:key1"
                     }
                 ],
-                "signers": {},
+                "signature": {},
                 "preExec": true
             }
         ]
