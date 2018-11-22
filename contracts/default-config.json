@@ -96,7 +96,7 @@
                 ],
                 "signature": {
                     "m":1,
-                    "signer":[
+                    "signers":[
                         "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ"
                     ]
                 },
@@ -160,7 +160,7 @@
                 ],
                 "signature": {
                   "m":1,
-                  "signer":[
+                  "signers":[
                     "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ"
                   ]
                 },
