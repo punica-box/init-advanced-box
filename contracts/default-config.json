@@ -94,7 +94,12 @@
                         "value": "String:hello"
                     }
                 ],
-                "signature": {},
+                "signature": {
+                    "m":1,
+                    "signer":[
+                        "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ"
+                    ]
+                },
                 "preExec": true
             },
             {
