@@ -63,7 +63,7 @@ The following describes the meaning of each parameter in default-config.json in 
 
 `deployConfig`: Basic contract information, used when contract deployment.
 
-`invokeConfig`: Parameters needed to configure the contract function.
+`invokeConfig`: Parameters needed to configure for invoking function in contract.
 
 - `abi` Used to configure the abi file directory, the default is `contracts/build/`.
 - `sleepTime` Used to specify the time required to perform a non-pre-execution method.
