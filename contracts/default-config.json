@@ -18,11 +18,42 @@
     },
     "invokeConfig": {
         "abi": "hello_ontology_abi.json",
-        "sleepTime":0,
         "defaultPayer": "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ",
         "gasPrice": 0,
         "gasLimit": 20000,
         "functions": [
+            {
+                "operation": "testHello",
+                "args": [
+                    {
+                        "name": "msgBool",
+                        "value": true
+                    },
+                    {
+                        "name": "msgInt",
+                        "value": 100
+                    },
+                    {
+                        "name": "msgByteArray",
+                        "value": "ByteArray:74657374"
+                    },
+                    {
+                        "name": "msgStr",
+                        "value": "String:test"
+                    },
+                    {
+                        "name": "msgAddress",
+                        "value": "ByteArray:8f651d459b4f146380dab28e7cfb9d4bb9c3fcd1"
+                    }
+                ],
+                "signers": {
+                    "m": 1,
+                    "signer": [
+                        "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ"
+                    ]
+                },
+                "preExec": true
+            },
             {
                 "operation": "testNumList",
                 "args": [
@@ -37,7 +68,7 @@
                         ]
                     }
                 ],
-                "signature": {},
+                "signers": {},
                 "preExec": true
             },
             {
@@ -58,7 +89,7 @@
                         "value": "String:test"
                     }
                 ],
-                "signature": {},
+                "signers": {},
                 "preExec": true
             },
             {
@@ -76,7 +107,7 @@
                         "value": "String:test"
                     }
                 ],
-                "signature": {},
+                "signers": {},
                 "preExec": true
             },
             {
@@ -94,12 +125,7 @@
                         "value": "String:hello"
                     }
                 ],
-                "signature": {
-                    "m":1,
-                    "signers":[
-                        "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ"
-                    ]
-                },
+                "signers": {},
                 "preExec": true
             },
             {
@@ -119,7 +145,7 @@
                         ]
                     }
                 ],
-                "signature": {},
+                "signers": {},
                 "preExec": true
             },
             {
@@ -143,7 +169,7 @@
                         "value": "String:test"
                     }
                 ],
-                "signature": {},
+                "signers": {},
                 "preExec": true
             },
             {
@@ -158,9 +184,9 @@
                         "value": "String:value1"
                     }
                 ],
-                "signature": {
+                "signers": {
                   "m":1,
-                  "signers":[
+                  "signer":[
                     "AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ"
                   ]
                 },
@@ -174,7 +200,7 @@
                         "value": "String:key1"
                     }
                 ],
-                "signature": {},
+                "signers": {},
                 "preExec": true
             }
         ]
